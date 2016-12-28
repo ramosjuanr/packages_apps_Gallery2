@@ -19,7 +19,6 @@
         <item name="android:colorPrimary">@color/primary</item>
         <item name="android:colorPrimaryDark">@color/primary_dark</item>
         <item name="android:colorAccent">@color/accent</item>
-        <item name="android:navigationBarColor">@color/primary_dark</item>
         <item name="listPreferredItemHeightSmall">?android:attr/listPreferredItemHeightSmall</item>
         <item name="switchStyle">@android:style/Widget.CompoundButton</item>
         <item name="android:dialogTheme">@style/DialogTheme</item>
@@ -35,43 +34,37 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:actionBarStyle">@style/Material.ActionBar</item>
     </style>
-    <style name="Theme.Crop" parent="Theme.GalleryBase">
-        <item name="android:displayOptions"></item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:actionBarStyle">@style/Material.ActionBar</item>
+    <style name="Theme.Crop" parent="Theme.Gallery">
     </style>
     <style name="Theme.FilterShow" parent="Theme.Gallery">
     </style>
+    <style name="Theme.Settings" parent="Theme.Gallery">
+    </style>
+    <style name="Theme.Gallery.Dialog" parent="DialogTheme"/>
+
     <style name="Material.ActionBar" parent="@android:style/Widget.Material.ActionBar">
         <item name="android:title"></item>
         <item name="android:displayOptions">useLogo|showTitle</item>
         <item name="android:background">@color/primary</item>
         <item name="android:backgroundStacked">@null</item>
         <item name="android:titleTextStyle">@style/ActionBarTitle</item>
-        <item name="android:elevation">@dimen/action_bar_elevation</item>
     </style>
     <style name="PopupThemePrimary" parent="@android:style/Widget.Material">
         <item name="android:colorBackground">@color/primary</item>
     </style>
     <style name="ActionBarTitle" parent="android:style/TextAppearance.Material.Widget.ActionBar.Title">
-        <item name="android:textStyle">bold</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
     </style>
-    <style name="ActionBarTwoLinePrimary" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+    <style name="ActionBarTwoLinePrimary" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
         <item name="android:colorBackground">@color/primary</item>
         <item name="android:textColor">@color/textColor</item>
     </style>
-    <style name="ActionBarTwoLineSecondary" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+    <style name="ActionBarTwoLineSecondary" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
         <item name="android:colorBackground">@color/primary</item>
         <item name="android:textColor">@color/textColor</item>
     </style>
-    <style name="ActionBarMenuItem" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
+    <style name="ActionBarMenuItem" parent="@style/ActionBarTitle">
         <item name="android:colorBackground">@color/primary</item>
         <item name="android:textColor">@color/textColor</item>
-    </style>
-    <style name="Theme.Photos.Gallery" parent="android:Theme.Material">
-    </style>
-    <style name="Theme.Photos.Fullscreen" parent="android:Theme.Material">
     </style>
 </resources>
