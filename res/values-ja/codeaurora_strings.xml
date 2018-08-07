@@ -60,10 +60,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <string name="setting">設定</string>
   <string name="server_timeout_title">"サーバタイムアウト"</string>
   <string name="server_timeout_message">"サーバーに再接続してビデオを再生しますか？"</string>
-  <string name="videoview_error_text_cannot_connect_retry">"接続に失敗しました。%1$dに再接続します。"</string>
+  <string name="videoview_error_text_cannot_connect_retry">"接続に失敗しました。%1$dに再接続します..."</string>
   <string name="media_controller_live">ライブ</string>
   <string name="media_controller_playing">再生中</string>
-  <string name="media_controller_connecting">接続中</string>
+  <string name="media_controller_connecting">接続中...</string>
   <string name="bookmark_add">"ブックマークを追加"</string>
   <string name="bookmark_display">"ブックマークを表示"</string>
   <string name="bookmark_empty">"ブックマークなし"</string>

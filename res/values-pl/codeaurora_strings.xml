@@ -31,13 +31,20 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Strings for step option settins -->
   <string name="setp_option_name">Krok</string>
+  <string name="step_option_desc">Dostosuj szybki krok w przód/tył</string>
   <string name="setp_option_three_second">3 sekundy</string>
   <string name="setp_option_six_second">6 sekund</string>
   <string name="loop">"Pętla"</string>
+  <string name="single">"Pojedynczy"</string>
+  <string name="stereo">"Stereo"</string>
+  <string name="speaker_on">Głośnik włączony</string>
+  <string name="speaker_off">Głośnik wyłączony</string>
+  <string name="speaker_need_headset">Proszę podłączyć zestaw słuchawkowy!</string>
   <string name="next">"Następny"</string>
   <string name="previous">"Poprzedni"</string>
   <string name="buffer_size">Rozmiar buforu</string>
   <string name="setting">Ustawienia</string>
+  <string name="media_controller_playing">Odtwarzanie</string>
   <string name="media_controller_connecting">Łączenie...</string>
   <string name="bookmark_add">"Dodaj zakładkę"</string>
   <string name="bookmark_display">"Pokaż zakładki"</string>
