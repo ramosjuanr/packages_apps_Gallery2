@@ -218,6 +218,7 @@
          some albums to be viewable offline [CHAR LIMIT=30] -->
   <string name="make_available_offline">Cho phép ngoại tuyến</string>
   <!-- A label describing to link website [CHAR LIMIT=30] -->
+  <string name="more_image">Thêm nhiều ảnh</string>
   <!-- A label of a menu item for user to sync the content [CHAR LIMIT=30] -->
   <string name="sync_picasa_albums">Làm mới</string>
   <!-- A label on a button. The user clicks this button after he has
@@ -416,12 +417,15 @@
   <!-- Toast if the trimmed video is too short to trim. [CHAR LIMIT=80] -->
   <string name="trim_too_short">Không thể cắt ngắn : video đích quá ngắn</string>
   <!-- Toast if the muted video is not supported. [CHAR LIMIT=80] -->
+  <string name="mute_nosupport">Không thể tắt tiếng : không hỗ trợ video</string>
   <!-- Text to show with progress bar while stitching in Gallery -->
   <string name="pano_progress_text">Hiển thị ảnh toàn cảnh</string>
   <!-- The label on the button that will save an edited image -->
   <string name="save" msgid="8140440041190264400">Lưu</string>
   <!-- A label representing the action of importing media item(s) [CHAR LIMIT=20] -->
+  <string name="ingest_import">@string/Import</string>
   <!-- A label that indicates the media import operation completed [CHAR LIMIT=20] -->
+  <string name="ingest_import_complete">@string/import_complete</string>
   <!--  Text of notification message which is shown when user attaches camera -->
   <string name="ingest_scanning" msgid="2048262851775139720">Đang quét nội dung...</string>
   <!-- String indicating how many media items from the camera have been scanned -->
@@ -429,6 +433,9 @@
     <item quantity="other">%1$d mục được quét</item>
   </plurals>
   <!-- String indicating how many media items from the camera have been selected -->
+  <plurals name="ingest_number_of_items_selected">
+    <item quantity="other">%1$d tập được chọn</item>
+  </plurals>
   <!--  Status message shown when content from the camera is being sorted -->
   <string name="ingest_sorting" msgid="624687230903648118">Đang sắp xếp...</string>
   <!--  Status message shown when scanning the content from the camera has completed -->
@@ -440,7 +447,9 @@
   <!--  Status message shown when there is no MTP device connected  -->
   <string name="ingest_no_device">Không có thiết bị MTP nào được kết nối</string>
   <!-- Label for album grid button -->
+  <string name="ingest_switch_photo_grid">@string/switch_photo_grid</string>
   <!-- Label for fullscreen button. [CHAR LIMIT=20] -->
+  <string name="ingest_switch_photo_fullscreen">@string/switch_photo_fullscreen</string>
   <!-- Camera resources below -->
   <!-- General strings -->
   <!-- title for the dialog showing the error of camera hardware -->
@@ -487,6 +496,7 @@
   <plurals name="pref_camera_timer_entry">
     <item quantity="other">%d giây</item>
   </plurals>
+  <string name="pref_camera_timer_sound_default">@string/setting_on_value</string>
   <!-- Text followed by a checkbox to turn on/off sound effects during the countdown. [CHAR LIMIT = 16]-->
   <string name="pref_camera_timer_sound_title">Kêu bíp khi đếm ngược</string>
   <!-- Entry of a on/off setting. The setting is turned off. [CHAR LIMIT=15] -->
@@ -622,6 +632,7 @@
   <!--  menu label exposure compensation [CHAR LIMIT=50] -->
   <string name="pref_exposure_label">ĐỘ PHƠI SÁNG</string>
   <!-- Default HDR entry value -->
+  <string name="pref_camera_hdr_default">@string/setting_off_value</string>
   <!-- HDR label ON [CHAR LIMIT=60] -->
   <string name="pref_camera_hdr_label">HDR</string>
   <!-- switch camera label back [CHAR LIMIT=60] -->
@@ -855,6 +866,7 @@ CHAR LIMIT = NONE] -->
   <!-- Positive answer for first run dialog asking if the user wants to remember photo locations [CHAR LIMIT = 20] -->
   <string name="remember_location_yes">Có</string>
   <!-- The message is shown in toast when click showOnMap Menu and there is no map app -->
+  <string name="map_activity_not_found_err">Không có ứng dụng bản đồ hiển thị vị trí.</string>
   <!-- Menu item to launch the camera app [CHAR LIMIT=25] -->
   <string name="menu_camera">Máy ảnh</string>
   <!-- Menu item to search for photos [CHAR LIMIT=25] -->
@@ -873,9 +885,15 @@ CHAR LIMIT = NONE] -->
     <item quantity="other">%1$d ảnh</item>
   </plurals>
   <!-- The label for the bass boost knob of the audio effects dialog. -->
+  <string name="bass_boost_strength">Tăng âm trầm</string>
   <!-- The label for the 3d effect knob of the audio effects dialog. -->
+  <string name="virtualizer_strength">Hiệu ứng 3D</string>
   <!-- The label for the audio effects menu. -->
+  <string name="audio_effects">Hiệu ứng âm thanh</string>
   <!-- Toast if user attempts to control audio effects without headphones plugged in. -->
+  <string name="headset_plug">Cắm tai nghe đối với những hiệu ứng này.</string>
   <!-- The title of the audio effects dialog. -->
+  <string name="audio_effects_dialog_title">Snapdragon Audio +</string>
   <!-- The tips of trimming video -->
+  <string name="fail_trim">Xin lỗi, video này có thể không thể cắt</string>
 </resources>

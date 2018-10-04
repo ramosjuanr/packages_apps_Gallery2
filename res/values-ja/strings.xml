@@ -106,8 +106,8 @@
   <!-- The label on the button which when clicked will undo a deletion of image [CHAR LIMIT=16]-->
   <string name="undo">元に戻す</string>
   <!-- String indicating more actions are available -->
-  <string name="select_all">すべて選択</string>
-  <string name="deselect_all">選択をすべて解除</string>
+  <string name="select_all">全て選択</string>
+  <string name="deselect_all">選択を全て解除</string>
   <string name="slideshow">スライドショー</string>
   <string name="details">詳細情報</string>
   <string name="details_title">%1$d/%2$d件のアイテム:</string>
@@ -309,7 +309,7 @@
   <string name="try_to_set_local_album_available_offline">このアイテムは端末に保存され、オフラインで利用できます。</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing all available albums [CHAR LIMIT=20] -->
-  <string name="set_label_all_albums">すべてのアルバム</string>
+  <string name="set_label_all_albums">全てのアルバム</string>
   <!-- A label shown on the action bar. It indicates that the user is
          viewing albums stored locally on the device [CHAR LIMIT=20] -->
   <string name="set_label_local_albums">ローカルアルバム</string>
@@ -324,7 +324,7 @@
          is a string representation of the amount of free space, eg. "20MB".
          [CHAR LIMIT=20]
     -->
-  <string name="free_space_format"><xliff:g id="BYTES">%s</xliff:g>空き</string>
+  <string name="free_space_format"><xliff:g id="BYTES">%s</xliff:g>使用可能</string>
   <!-- Label of a group of pictures. The size of each picture in this group is
          less than a certain amount. The parameter is a string representation
          of that amount, eg. "10MB".
@@ -360,7 +360,7 @@
   <!-- The label on the radio button for the widget type that shows the images randomly. [CHAR LIMIT=30]-->
   <string name="widget_type_album">アルバムを選択</string>
   <!-- The label on the radio button for the widget type that shows the images in an album. [CHAR LIMIT=30]-->
-  <string name="widget_type_shuffle">すべての画像をシャッフル</string>
+  <string name="widget_type_shuffle">全ての画像をシャッフル</string>
   <!-- The label on the radio button for the widget type that shows only one image. [CHAR LIMIT=30]-->
   <string name="widget_type_photo">画像を選択</string>
   <!-- The title of the dialog for choosing the type of widget. [CHAR LIMIT=20] -->
@@ -700,7 +700,7 @@
   <!-- Announcement telling users video recording has just stopped [CHAR LIMIT=NONE] -->
   <string name="video_recording_stopped">録画を停止しました。</string>
   <!-- Toast telling users video snapshot is disabled when the effects are on and a user tries to tap on the viewfinder [CHAR LIMIT=65] -->
-  <string name="disable_video_snapshot_hint">動画スナップショットは特殊効果がONのときは無効です。</string>
+  <string name="disable_video_snapshot_hint">動画スナップショットは特殊効果がONの時は無効です。</string>
   <!-- A button in effect setting popup to clear the effect. [CHAR LIMIT=26] -->
   <string name="clear_effects">効果設定をクリア</string>
   <!-- Title of category for silly face effects. [CHAR LIMIT=26] -->
