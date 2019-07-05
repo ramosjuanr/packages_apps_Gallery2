@@ -24,7 +24,7 @@
     <integer name="max_video_recording_length">0</integer>
     <bool name="config_show_more_images">false</bool>
 
-    <bool name="config_scroll_horizontal">false</bool>
+    <bool name="config_scroll_horizontal">true</bool>
 
     <bool name="config_grid_use_padding">false</bool>
 
