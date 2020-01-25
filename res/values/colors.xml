@@ -16,10 +16,10 @@
 <resources>
     <color name="holo_gray_light">#33999999</color>
     <color name="default_background">#000</color>
-    <color name="ic_launcher_gallery_background">#B71500</color>
+    <color name="ic_launcher_gallery_background">#4285f4</color>
 
-    <color name="primary">#B71500</color>
-    <color name="primary_dark">#9C1300</color>
+    <color name="primary">#4285f4</color>
+    <color name="primary_dark">#356FCD</color>
     <color name="accent">#9C6500</color>
     <color name="textColor">#ffffff</color>
 
